@@ -32,8 +32,8 @@ git config --global user.name "Giancarlo Franchini"
 git config --global user.email "gfranchini88@gmail.com"
 
 echo installing mysql
-debconf-set-selections <<< 'mysql-server mysql-server/root_password password '
-debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password '
+debconf-set-selections <<< 'mysql-server mysql-server/root_password password root'
+debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password root'
 install MySQL mysql-server mysql-client libmysqlclient-dev
 # mysql -uroot -proot <<SQL
 # CREATE USER ''@'localhost';
