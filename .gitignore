@@ -1,4 +1,6 @@
 .vagrant
 rails
+Deployments
 Deployments/*
+wongfacts
 wongfacts/*
