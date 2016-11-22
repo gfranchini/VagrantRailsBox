@@ -14,3 +14,4 @@ This project automates the setup of a development environment for working on a R
 
 - Ruby 2.3.1
 - Rails 5.0.0.1
+- MySQL 5.5
